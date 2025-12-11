@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+  <h2>Create Account</h2>
+
+  <div class="box-red">
+    <input type="text" placeholder="Full Name" required style="background: rgba(255,255,255,0.2); color: white; border: white;">
+  </div>
+
+  <div class="box-blue">
+    <input type="email" placeholder="Email" required style="background: rgba(255,255,255,0.2); color: white; border: white;">
+  </div>
+
+  <div class="box-yellow">
+    <input type="password" placeholder="Password (15 chars)" minlength="15" required style="background: rgba(255,255,255,0.2); color: white; border: white;">
+  </div>
+
+  <div class="box-green">
+    <input type="password" placeholder="Confirm Password" required style="background: rgba(255,255,255,0.2); color: white; border: white;">
+  </div>
+
+  <div class="box-purple">
+    <input type="date" required style="background: rgba(255,255,255,0.2); color: white; border: white;">
+  </div>
+
+  <div class="box-orange">
+    <label>I am a:</label>
+    <select required style="background: rgba(255,255,255,0.2); color: white; border: white;">
+      <option value="">Select one...</option>
+      <option style="color: black;">Student</option>
+      <option style="color: black;">Developer</option>
+      <option style="color: black;">Teacher</option>
+    </select>
+  </div>
+
+  <div class="radio-group">
+    <label>Newsletter:</label><br>
+    <label><input type="radio" name="n" value="daily">Daily</label>
+    <label><input type="radio" name="n" value="weekly">Weekly</label>
+    <label><input type="radio" name="n" value="monthly">Monthly</label>
+  </div>
+
+  <button type="submit">Sign Up</button>
+</form>
+
+</body>
+</html>
+
